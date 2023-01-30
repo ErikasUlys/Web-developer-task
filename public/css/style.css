@@ -1,0 +1,95 @@
+th, td {
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+}
+h1{
+   text-align: center;  
+   padding-top: 20px;
+}
+
+a:hover {
+    text-decoration: none;
+    color: white;
+}
+.home_button{
+    padding-right: 15%;
+    color: white;
+}
+
+.gap{
+    padding-bottom: 50px;
+}
+
+.parent {
+    padding-right: 7%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.heading{
+    background-color: black;
+    position: fixed;
+    top: 0;
+    width: 100%
+}
+
+.content{
+    width: 75%;
+    margin: auto;
+    padding-top: 200px;
+}
+
+.search_bar{  
+    margin: auto;
+    padding: 1% 12%;
+    text-align: right;
+}
+
+button{
+  border: none;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 4px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 16px 0px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.button1 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid black;
+} 
+.button1:hover {
+    background-color: black;
+    border-color: white;
+    color: white;
+}
+input[type=text] {
+    width: 50%;
+    padding: 8px;
+    border: 1px solid black;
+    border-radius: 4px;
+    margin-top: 8px;
+    font-size: 17px;
+  }
+.hoverable:hover{
+    background-color:azure;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+}
+
+.green{
+    color:limegreen;
+    font-weight: bold;
+}
+.red{
+    color:orangered;
+    font-weight: bold;
+}
+
