@@ -1,6 +1,6 @@
 ## Installation
 
-- '>'git clone https://github.com/ErikasUlys/Web-developer-task
+- ->git clone https://github.com/ErikasUlys/Web-developer-task
 - >cd Web-developer-task
 - >composer install
 - create database cryptocurrencies
